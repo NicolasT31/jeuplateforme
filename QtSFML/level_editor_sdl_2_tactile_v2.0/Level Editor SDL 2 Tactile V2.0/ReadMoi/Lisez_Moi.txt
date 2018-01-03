@@ -1,0 +1,85 @@
+Level Editor (Editeur de niveaux) pour Rabidja 3.0 - Jeu de plateformes
+Compatible avec les Big Tutos SFML (tout le tuto) et SDL 2 (après l'ajout des pentes).
+
+
+Meruvia Game Studio, www.meruvia.fr, 28 juillet 2015, version 2.0.
+
+Changements (grosse mise à jour de Stephantasy - cf. fichier d'aide) :
+	- Affichage du numéro de la Tile active 
+	- Ajout du Couper-Coller : CTRL + X
+	- Ajout de la Suppression de la sélection avec Suppr.
+	- Ajout du Flip de tiles (effet miroir ou symétrie) 
+	- Ajout du mode Zoom 
+	- Ajout du redimensionnement manuel de l’éditeur
+	- Ajout du CTRL+Z et du CTRL+Y (Annuler / Rétablir)
+	
+	
+
+Meruvia Game Studio, www.meruvia.fr, 2 Mai 2015, version 1.9.
+
+Changements :
+	- Résolution du bug du copier/coller par Stephantasy.
+	
+	
+	
+Meruvia Game Studio, www.meruvia.fr, 1er Mai 2015, version 1.8.
+
+Changements :
+	- Un seul changement, mais d'importance : les autres couches s'affichent maintenant par transparence quand
+	on en modifie une. Ce sera beaucoup plus facile ainsi !
+
+
+	
+Meruvia Game Studio, www.meruvia.fr, Avril 2015, version 1.7.
+
+Changements :
+	- La selection en rouge ne disparait plus lorsqu'on change de Layer
+	- Correction d'un bug qui empêchait la fonction "Remplir" de fonctionner lorsqu'on faisait une sélection de bas en haut
+	- La sélection en rouge ne s'affiche plus par dessus le bandeau d'outils à droite de l'éditeur
+
+
+
+
+Meruvia Game Studio, www.meruvia.fr, Mars 2015, version 1.6.
+
+Changements :
+
+   - Correction d'un bug qui empêchait l'affichage de la sélection en rouge
+   - Une nouvelle version 1.7 avec d'autres corrections de bugs arrive bientôt, par Stephantasy.
+
+
+
+
+Meruvia Game Studio, www.meruvia.fr, Mars 2015, version 1.5.
+
+Le tileset par défaut est le nouveau contenant les lumières et ombres. Le précédent
+est disponible dans le dossier Backup.
+
+Changements :
+
+ Un grand merci à Stephantasy qui rajoute beaucoup de nouvelles fonctionnalités très pratiques :
+   - La possibilité de sélectionner plusieurs tiles et de les copier/coller.
+   - La possibilité d'insérer / supprimer une colonne de tiles.
+   - La possibilité d'insérer / supprimer une ligne de tiles.
+   - La possibilité de remplir toute une sélection avec la même tile.
+   - Une grille.
+   - De nouvelles indications, en plus des coordonnées de la souris.
+   - Une aide.
+
+L'archive contient :
+
+	- Un dossier Projet SDL 2 avec le projet Code::Blocks préconfiguré pour compiler en SDL 2. 
+	Pour cela, copiez simplement l'archive SDL2 sous C: Cela évitera ainsi aux utilisateurs de la SFML
+	de devoir aussi se mettre à la SDL 2 ;) .
+	
+	- Un dossier Level Editor qui contient le programme précompilé pour Windows 32bits et prêt à l'emploi.
+	Cliquez simplement sur l'exécutable LevelEditor.exe.
+	
+	- Un dossier SDL2 qui contient la lib SDL2, à copier sous C: (et pas ailleurs), pour pouvoir recompiler
+	directement avec le projet Code::Blocks sans avoir à tout reconfigurer. ;)
+
+	
+	Voilà, c'est tout ! ;)
+	
+		@ bientôt sur meruvia.fr,
+								Jay.
